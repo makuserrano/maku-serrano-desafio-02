@@ -1,0 +1,92 @@
+:root{
+    --color-primario: #273238;
+    --color-font:#698593;
+    --color-background:#FFF;
+    --color-border:#8ca8b2;
+    --color-aspiradora:#e6cbbf;
+    --color-celulares:#a1c1cb;
+    --color-consolas:#bcbdbf;
+    --color-home-theaters:#8d94a1;
+    --color-televisores:#b2b2aa;
+    --p-font:#d1d5ce;
+}
+body {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', sans-serif ;
+    background-color: var(--color-primario);
+    color:var(--p-font) ;
+}
+
+
+h1 {
+    font-family:Impact, Charcoal, sans-serif;
+    color: var(--color-font);
+    background-color: var(--color-background);
+    text-align: center;
+    font-size: 55px;
+    letter-spacing:2px;
+}
+
+.aspiradora{
+    color: var(--color-aspiradora);
+    font-family:Arial, Gadget, sans-serif ;
+    font-style: italic;
+    font-weight: 900;
+    font-variant: small-caps;
+}
+    
+.aspiradora-img{
+    border: 5px solid var(--color-aspiradora);
+    margin-left: 40px;
+}
+
+.celulares{
+    color: var(--color-celulares);
+    font-family:Arial, Gadget, sans-serif ;
+    font-style: italic;
+    font-weight: 900; 
+    font-variant: small-caps;
+}
+.celulares-img{
+    border: 5px solid var(--color-celulares);
+    margin-left: 40px;
+}
+
+.consolas{
+    color: var(--color-consolas);
+    font-family:Arial, Gadget, sans-serif ;
+    font-style: italic;
+    font-weight: 900; 
+    font-variant: small-caps;
+}
+
+.consolas-img{
+    border: 5px solid var(--color-consolas);
+    margin-left: 40px;
+}
+.home-theaters{
+    color: var(--color-home-theaters);
+    font-family:Arial, Gadget, sans-serif ;
+    font-style: italic;
+    font-weight: 900; 
+    font-variant: small-caps;
+
+}
+
+.home-theaters-img{
+    border: 5px solid var(--color-home-theaters);
+    margin-left: 40px;
+}
+
+.televisores{
+    color: var(--color-televisores);
+    font-family:Arial, Gadget, sans-serif ;
+    font-style: italic;
+    font-weight: 900;
+    font-variant: small-caps;
+
+}
+.televisores-img{
+    border: 5px solid var(--color-televisores);
+    margin-left: 40px;
+}
+

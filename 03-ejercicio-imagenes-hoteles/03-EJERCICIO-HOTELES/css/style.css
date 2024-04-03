@@ -1,0 +1,50 @@
+:root{
+  --color-font: #bb5397;
+}
+
+body{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  color: #0009;
+}
+
+.container {
+  
+  text-align: center;
+}
+
+
+h1{
+  text-align: center;
+  letter-spacing: 8px;
+  color: var(--color-font);
+  font-weight: 200;
+}
+
+h2 {
+  color: var(--color-font);
+  letter-spacing: 8px;
+  font-weight: 100;
+}
+
+.disney-pop {
+  float: right;
+  margin-left: 20px;
+}
+
+.disney-caribbean{
+  float:left;
+  margin: 0px 20px 10px 0px;
+}
+.disney-animal-kingdom-p{
+  margin-top: 25px;
+}
+.disney-animal-kingdom {
+  float: right;
+  margin:20px 0px 20px 20px;
+}
+.mickey-minnie{
+  width: 100%;
+}
+
+

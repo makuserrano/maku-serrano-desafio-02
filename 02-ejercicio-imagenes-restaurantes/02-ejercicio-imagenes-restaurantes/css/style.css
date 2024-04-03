@@ -1,0 +1,20 @@
+:root {
+  --color-background: #289688;
+  --color-h1:#fcea3e;
+
+}
+
+body {
+  background-color: var(--color-background);
+  text-align: center ;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif  
+}
+h1{
+  font-size: 40px;
+  color: var(--color-h1);
+}
+.imagenes {
+  border:8px solid white;
+  margin: 5px;
+}
+
